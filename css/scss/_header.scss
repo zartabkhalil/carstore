@@ -1,0 +1,56 @@
+.header{
+    img{
+        height: 89vh;
+    }
+}
+
+slider-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    }
+
+
+ .header-slider{
+    height: 800px;
+    background-color: black;
+    background-attachment: relative;
+    background-position:fixed ;
+    
+   
+}
+
+ @mixin slides {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+
+
+ .s-first-slide{
+     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../img/slider1.jpg');
+     
+     @include slides();
+ }
+
+ .s-second-slide {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../img/slider2.jpg');
+     @include slides();
+ }
+
+ .s-third-slide {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../img/slider3.jpg');
+     @include slides();
+ }
+
+ .exchange{
+     color:lighten($color: #00CC99, $amount: 2);
+ }
+
+
+ .header-buy-title{
+      @media (min-width: 992px) {
+
+          font-size: 56px;
+      }
+ }

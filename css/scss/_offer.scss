@@ -1,0 +1,25 @@
+.offer-icons{
+    span{
+        color:darken($color: #00CC99, $amount: 2);
+        
+    }
+    
+}
+.offer-title {
+    color:darken($color: #00CC99, $amount: 2)!important;
+}
+
+.offer-hover:hover{
+     transition: all 1s ease-in-out;
+     transform: scale(1.1);
+
+ }
+
+ .offer{
+     background-color: lighten($color: grey, $amount: 45);
+     
+     .container{
+         
+         background-color: lighten($color: grey, $amount: 43);
+     }
+ }

@@ -1,0 +1,18 @@
+.mainnav{
+        background-color: black!important;
+
+    li{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 25px!important;
+        transition: 1s all ease-in;
+        padding: 10px;
+    }
+
+    li:hover{
+         background-color:lighten($color: #00CC99, $amount: 2);
+        border-radius: 10px;
+        color: white;
+    
+    }
+}

@@ -1,0 +1,25 @@
+/************mixins*/
+
+.bg-red{
+    background-color: $red-color
+}
+
+.b-bottom{
+    border-bottom: 1px solid white;
+}
+
+.b-left-grey{
+    border-right:1px solid lightgrey ;
+}
+
+.bg-black{
+    background-color: black!important;
+}
+
+section{
+    transition: all 1s all;
+}
+
+.bg-green{
+    background-color: lighten($color: #00CC99, $amount: 2);
+}
